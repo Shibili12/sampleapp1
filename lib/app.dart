@@ -13,6 +13,11 @@ class app extends StatelessWidget {
     return MaterialApp(
       title: "my sample app",
       home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          elevation: 10,
+        ),
+        backgroundColor: Colors.yellowAccent,
         body: SafeArea(
           child: Center(
             child: ButtonSamples(),
